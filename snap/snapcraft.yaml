@@ -3,6 +3,8 @@ base: core22
 adopt-info: dippi
 grade: stable
 confinement: strict
+issues: https://github.com/kenvandine/dippi-snap/issues
+contact: https://cassidyjames.com/dippi
 
 parts:
   dippi:
