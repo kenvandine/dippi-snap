@@ -1,0 +1,20 @@
+name: dippi
+base: core22
+adopt-info: dippi
+grade: stable
+confinement: strict
+
+parts:
+  dippi:
+    plugin: meson
+    source: https://github.com/cassidyjames/dippi.git
+    meson-parameters:
+      - --prefix=/usr
+    parse-info: [usr/share/metainfo/com.github.cassidyjames.dippi.metainfo.xml]
+
+apps:
+  dippi:
+    command: usr/bin/com.github.cassidyjames.dippi
+    extensions: [ gnome ]
+    common-id: com.github.cassidyjames.dippi.desktop
+    desktop: usr/share/applications/com.github.cassidyjames.dippi.desktop
