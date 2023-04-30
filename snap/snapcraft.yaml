@@ -6,6 +6,10 @@ confinement: strict
 issues: https://github.com/kenvandine/dippi-snap/issues
 contact: https://cassidyjames.com/dippi
 
+architectures:
+  - build-on: amd64
+  - build-on: arm64
+
 parts:
   dippi:
     plugin: meson
