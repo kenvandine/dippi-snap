@@ -1,5 +1,5 @@
 name: dippi
-base: core22
+base: core24
 adopt-info: dippi
 grade: stable
 confinement: strict
