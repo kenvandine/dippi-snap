@@ -14,6 +14,7 @@ parts:
   dippi:
     plugin: meson
     source: https://github.com/cassidyjames/dippi.git
+    source-tag: 5.0.3
     meson-parameters:
       - --prefix=/usr
     parse-info: [usr/share/metainfo/com.github.cassidyjames.dippi.metainfo.xml]
